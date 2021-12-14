@@ -14,3 +14,9 @@ We will predict the lead actor in a Hollywood film, which can be male or female,
 * Hyperparameter Tuning
 * Models Training
 * Model Testing
+
+
+## Conclusions and Reflections
+In this brief study, we trained, evaluated and tested a plethora of classifiers ranging from linear models (Linear regression, LDA), to non linear: bagging models, boosting models...using the Hollywood Movie Actors dataset to predict the gender of the lead (and indirectly the co-lead) actor. The performance results showed the superiority of the boosting classifiers, especially XGBoost and LightGBM with an F1 score of 88.7\% and 87.3\% respectively on the test data. These results should be taken at face value, since we don't know how this dataset was curated in the first place, nor if it is a good representation of the actual Hollywood movies. We think that features such as the  'genre', 'movie's budget', 'Producer gender', 'Director gender', 'Screenwriter gender' can provide more insights. We know for a fact that the writer, director and the producer control the scenarios and the casting. 
+
+Assuming that the provided dataset is a good representation of the Hollywood movies, then we can conclude that men do speak more than women. 
